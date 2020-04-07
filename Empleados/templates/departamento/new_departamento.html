@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block titulo %} Crear nuevo Departamento
+{% endblock titulo %}
+
+
+{% block content %}
+
+{% include "includes/header.html" %}
+
+<div class="grid-container">
+    <div class="grid-x">
+        <h1 class="cell">Registro de nuevo formulario</h1>
+        <form  class= "cell callout grid-x grid-margin-x" method="POST">  {% csrf_token %}
+           
+            <h3 class="cell">Datos empleado</h3>
+            <div class="cell ">
+                <label>Nombre:
+                     {{ form.nombre }}
+                </label>
+           </div>
+           <div class="cell ">
+                <label>Apellidos:
+                 {{ form.apellidos }}
+                </label>
+            </div>
+            <h3 class="cell">Datos Departamento</h3>
+            <div class="cell ">
+                <label>Departamento:
+                 {{ form.departamento }}
+                </label>
+            </div>
+            <div class="cell ">
+                <label>Shorname:
+                 {{ form.shorname }}
+                </label>
+            </div>
+        
+            <button type="submit" class="success button">Guardar</button>
+        </form>
+
+
+
+    </div>
+
+
+</div>
+
+{% endblock content %}
+    
+

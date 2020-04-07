@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Resumen foundation</h1>
+
+    <div class="grid-x" style="border: 1px solid green;">
+        <h2 class="cell large-2 medium-6" style="border: 1px solid red;" >elemento 1</h2>
+        <h2 class="cell large-5 medium-6" style="border: 1px solid yellowgreen;" >elemento 2</h2>
+        <h2 class="cell large-5 medium-6" style="border: 1px solid purple;">elemento 3</h2>
+        <div class="cell large-4 grid-x" style="border: 1px solid blue;">
+            <h4 class="cell large-6" style="border: 1px solid blue;" >Otro elemento</h4>
+            <h4 class="cell large-8" style="border: 1px solid blue;" >Otro elemento</h4>
+            <h4 class="cell large-4" style="border: 1px solid blue;" >Otro elemento</h4>
+        </div>
+    </div>
+
+</body>
+</html>
+

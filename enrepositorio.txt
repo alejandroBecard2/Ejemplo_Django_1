@@ -1,9 +1,0 @@
-Código desde el repositorio
-
-<<<<<<< HEAD
-
-Cambios también desde local
-
-Cambios directamente desde el servidor
-
-mismo archvi
