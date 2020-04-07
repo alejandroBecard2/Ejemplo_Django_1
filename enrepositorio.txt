@@ -1,1 +1,5 @@
 Código desde el repositorio
+
+Cambios directamente desde el servidor
+
+mismo archvi
